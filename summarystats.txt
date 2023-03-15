@@ -1,0 +1,22 @@
+total emotes = 451675
+total tweets = 757497
+total tweets with emojis = 146133
+proportion of tweets with emoji = 19.291561550738816 %
+average emojis per tweet_with_emoji = 3.0908487473739674
+n days = 84
+
+emoji per exclusive symbol
+
+$ETH = 58335
+$LTC = 49458
+$BTC = 12552
+$NEO = 6095
+$DOGE = 4902
+
+Tweets with emoji per excl symbol
+
+$ETH = 16735
+$LTC = 13424
+$BTC = 3089
+$NEO = 3279
+$DOGE = 982
