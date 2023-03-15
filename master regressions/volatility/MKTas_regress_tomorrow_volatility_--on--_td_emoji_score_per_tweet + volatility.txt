@@ -1,0 +1,26 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     tomorrow_volatility   R-squared:                       0.190
+Model:                             OLS   Adj. R-squared:                  0.169
+Method:                  Least Squares   F-statistic:                     9.238
+Date:                 Wed, 08 Mar 2023   Prob (F-statistic):           0.000248
+Time:                         21:18:50   Log-Likelihood:                 174.89
+No. Observations:                   82   AIC:                            -343.8
+Df Residuals:                       79   BIC:                            -336.6
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                    0.0216      0.008      2.611      0.011       0.005       0.038
+td_emoji_score_per_tweet     0.0049      0.004      1.265      0.209      -0.003       0.013
+volatility                   0.4078      0.104      3.917      0.000       0.201       0.615
+==============================================================================
+Omnibus:                       45.516   Durbin-Watson:                   2.113
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              137.206
+Skew:                           1.855   Prob(JB):                     1.61e-30
+Kurtosis:                       8.137   Cond. No.                         66.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        tomorrow_volume   R-squared:                       0.773
+Model:                            OLS   Adj. R-squared:                  0.761
+Method:                 Least Squares   F-statistic:                     65.50
+Date:                Thu, 02 Mar 2023   Prob (F-statistic):           5.08e-24
+Time:                        17:57:40   Log-Likelihood:                -475.60
+No. Observations:                  82   AIC:                             961.2
+Df Residuals:                      77   BIC:                             973.2
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept         78.6173     22.727      3.459      0.001      33.362     123.873
+td_skulls      -6.114e-12   1.77e-12     -3.445      0.001   -9.65e-12   -2.58e-12
+td_down_arrows     5.7020      1.763      3.235      0.002       2.192       9.212
+td_down_stocks   -92.3964    105.897     -0.873      0.386    -303.264     118.472
+Volume             0.7203      0.060     12.057      0.000       0.601       0.839
+returns          689.9732    180.762      3.817      0.000     330.030    1049.917
+==============================================================================
+Omnibus:                       83.594   Durbin-Watson:                   1.991
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1044.609
+Skew:                           3.007   Prob(JB):                    1.47e-227
+Kurtosis:                      19.419   Cond. No.                     5.56e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.22e-29. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

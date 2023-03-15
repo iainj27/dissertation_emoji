@@ -1,0 +1,28 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     tomorrow_volatility_2   R-squared:                       0.105
+Model:                               OLS   Adj. R-squared:                  0.094
+Method:                    Least Squares   F-statistic:                     8.842
+Date:                   Thu, 02 Mar 2023   Prob (F-statistic):            0.00396
+Time:                           17:08:03   Log-Likelihood:                 163.66
+No. Observations:                     77   AIC:                            -323.3
+Df Residuals:                         75   BIC:                            -318.6
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.0251      0.005      4.870      0.000       0.015       0.035
+td_down_arrows               0          0        nan        nan           0           0
+tomorrow_volatility     0.3263      0.110      2.974      0.004       0.108       0.545
+==============================================================================
+Omnibus:                       54.263   Durbin-Watson:                   1.678
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              197.003
+Skew:                           2.302   Prob(JB):                     1.66e-43
+Kurtosis:                       9.341   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

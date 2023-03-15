@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     tomorrow_volatility   R-squared:                       0.055
+Model:                             OLS   Adj. R-squared:                  0.031
+Method:                  Least Squares   F-statistic:                     2.312
+Date:                 Wed, 08 Mar 2023   Prob (F-statistic):              0.106
+Time:                         21:18:52   Log-Likelihood:                 166.92
+No. Observations:                   82   AIC:                            -327.8
+Df Residuals:                       79   BIC:                            -320.6
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.0324      0.008      4.285      0.000       0.017       0.047
+td_novak_score  1.875e-05   1.98e-05      0.948      0.346   -2.06e-05    5.81e-05
+volatility         0.2015      0.113      1.776      0.080      -0.024       0.427
+==============================================================================
+Omnibus:                       72.410   Durbin-Watson:                   2.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              511.112
+Skew:                           2.730   Prob(JB):                    1.03e-111
+Kurtosis:                      13.944   Cond. No.                     1.00e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large,  1e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

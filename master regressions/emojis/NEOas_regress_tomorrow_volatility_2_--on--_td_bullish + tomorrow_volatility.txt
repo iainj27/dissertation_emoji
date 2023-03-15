@@ -1,0 +1,26 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     tomorrow_volatility_2   R-squared:                       0.282
+Model:                               OLS   Adj. R-squared:                  0.264
+Method:                    Least Squares   F-statistic:                     15.52
+Date:                   Thu, 02 Mar 2023   Prob (F-statistic):           2.07e-06
+Time:                           17:08:18   Log-Likelihood:                 146.78
+No. Observations:                     82   AIC:                            -287.6
+Df Residuals:                         79   BIC:                            -280.3
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.0282      0.010      2.921      0.005       0.009       0.047
+td_bullish              0.0002      0.001      0.388      0.699      -0.001       0.001
+tomorrow_volatility     0.5190      0.099      5.267      0.000       0.323       0.715
+==============================================================================
+Omnibus:                       53.402   Durbin-Watson:                   2.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              220.310
+Skew:                           2.058   Prob(JB):                     1.45e-48
+Kurtosis:                       9.895   Cond. No.                         380.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

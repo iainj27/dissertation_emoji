@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                returns   R-squared:                       0.031
+Model:                            OLS   Adj. R-squared:                 -0.007
+Method:                 Least Squares   F-statistic:                    0.8224
+Date:                Wed, 08 Mar 2023   Prob (F-statistic):              0.485
+Time:                        21:38:22   Log-Likelihood:                 169.11
+No. Observations:                  82   AIC:                            -330.2
+Df Residuals:                      78   BIC:                            -320.6
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                   -0.0020      0.018     -0.108      0.914      -0.038       0.034
+td_emoji_score_per_tweet    -0.0118      0.012     -1.000      0.320      -0.035       0.012
+yesterday_volume          2.262e-07   2.07e-07      1.092      0.278   -1.86e-07    6.39e-07
+yesterday_returns            0.0531      0.115      0.461      0.646      -0.176       0.282
+==============================================================================
+Omnibus:                       21.513   Durbin-Watson:                   1.949
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               75.863
+Skew:                          -0.663   Prob(JB):                     3.36e-17
+Kurtosis:                       7.522   Cond. No.                     2.07e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.07e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

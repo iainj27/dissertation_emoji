@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             volatility   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.138
+Method:                 Least Squares   F-statistic:                     7.483
+Date:                Thu, 02 Mar 2023   Prob (F-statistic):            0.00106
+Time:                        17:04:36   Log-Likelihood:                 171.74
+No. Observations:                  82   AIC:                            -337.5
+Df Residuals:                      79   BIC:                            -330.3
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.0296      0.006      4.706      0.000       0.017       0.042
+td_ticks                 0.0003      0.000      0.696      0.489      -0.000       0.001
+yesterday_volatility     0.3834      0.105      3.640      0.000       0.174       0.593
+==============================================================================
+Omnibus:                       38.768   Durbin-Watson:                   2.005
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               83.652
+Skew:                           1.745   Prob(JB):                     6.84e-19
+Kurtosis:                       6.507   Cond. No.                         333.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

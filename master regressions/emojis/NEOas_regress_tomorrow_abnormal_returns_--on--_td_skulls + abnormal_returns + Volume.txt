@@ -1,0 +1,29 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     tomorrow_abnormal_returns   R-squared:                       0.041
+Model:                                   OLS   Adj. R-squared:                  0.016
+Method:                        Least Squares   F-statistic:                     1.678
+Date:                       Thu, 02 Mar 2023   Prob (F-statistic):              0.193
+Time:                               17:16:44   Log-Likelihood:                 152.78
+No. Observations:                         82   AIC:                            -299.6
+Df Residuals:                             79   BIC:                            -292.3
+Df Model:                                  2                                         
+Covariance Type:                   nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.0084      0.011      0.780      0.438      -0.013       0.030
+td_skulls         2.326e-14   1.27e-14      1.829      0.071   -2.05e-15    4.86e-14
+abnormal_returns     0.2235      0.122      1.827      0.071      -0.020       0.467
+Volume            -1.87e-05   2.79e-05     -0.671      0.504   -7.41e-05    3.67e-05
+==============================================================================
+Omnibus:                       64.005   Durbin-Watson:                   1.923
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              435.693
+Skew:                           2.303   Prob(JB):                     2.46e-95
+Kurtosis:                      13.310   Cond. No.                     1.52e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.66e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

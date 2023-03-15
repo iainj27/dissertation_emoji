@@ -1,0 +1,28 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     tomorrow_volatility_2   R-squared:                       0.208
+Model:                               OLS   Adj. R-squared:                  0.167
+Method:                    Least Squares   F-statistic:                     5.064
+Date:                   Thu, 02 Mar 2023   Prob (F-statistic):            0.00112
+Time:                           17:52:39   Log-Likelihood:                 173.39
+No. Observations:                     82   AIC:                            -336.8
+Df Residuals:                         77   BIC:                            -324.7
+Df Model:                              4                                         
+Covariance Type:               nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.0273      0.007      4.193      0.000       0.014       0.040
+td_skulls               0.6509      0.350      1.858      0.067      -0.047       1.348
+td_down_arrows          0.0021      0.001      1.508      0.136      -0.001       0.005
+td_down_stocks         -0.0136      0.059     -0.233      0.816      -0.130       0.103
+tomorrow_volatility     0.3600      0.105      3.420      0.001       0.150       0.570
+==============================================================================
+Omnibus:                       22.829   Durbin-Watson:                   2.103
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.587
+Skew:                           1.244   Prob(JB):                     1.38e-07
+Kurtosis:                       4.749   Cond. No.                         351.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

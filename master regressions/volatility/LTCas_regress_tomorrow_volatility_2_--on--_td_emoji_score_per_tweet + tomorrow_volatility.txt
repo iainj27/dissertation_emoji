@@ -1,0 +1,26 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     tomorrow_volatility_2   R-squared:                       0.206
+Model:                               OLS   Adj. R-squared:                  0.186
+Method:                    Least Squares   F-statistic:                     10.27
+Date:                   Wed, 08 Mar 2023   Prob (F-statistic):           0.000109
+Time:                           21:20:35   Log-Likelihood:                 173.28
+No. Observations:                     82   AIC:                            -340.6
+Df Residuals:                         79   BIC:                            -333.3
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                    0.0239      0.007      3.495      0.001       0.010       0.037
+td_emoji_score_per_tweet     0.0071      0.003      2.217      0.030       0.001       0.013
+tomorrow_volatility          0.3374      0.104      3.252      0.002       0.131       0.544
+==============================================================================
+Omnibus:                       27.268   Durbin-Watson:                   2.044
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.137
+Skew:                           1.398   Prob(JB):                     7.08e-10
+Kurtosis:                       5.124   Cond. No.                         61.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     tomorrow_volatility   R-squared:                       0.298
+Model:                             OLS   Adj. R-squared:                  0.289
+Method:                  Least Squares   F-statistic:                     33.92
+Date:                 Thu, 02 Mar 2023   Prob (F-statistic):           1.15e-07
+Time:                         17:07:10   Log-Likelihood:                 147.57
+No. Observations:                   82   AIC:                            -291.1
+Df Residuals:                       80   BIC:                            -286.3
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.0297      0.007      3.976      0.000       0.015       0.045
+td_skulls           0          0        nan        nan           0           0
+volatility     0.5491      0.094      5.824      0.000       0.362       0.737
+==============================================================================
+Omnibus:                       53.619   Durbin-Watson:                   2.081
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              225.356
+Skew:                           2.057   Prob(JB):                     1.16e-49
+Kurtosis:                      10.002   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

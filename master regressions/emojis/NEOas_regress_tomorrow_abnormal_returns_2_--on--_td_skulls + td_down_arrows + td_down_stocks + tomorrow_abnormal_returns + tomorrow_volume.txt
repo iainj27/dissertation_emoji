@@ -1,0 +1,31 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:     tomorrow_abnormal_returns_2   R-squared:                       0.172
+Model:                                     OLS   Adj. R-squared:                  0.129
+Method:                          Least Squares   F-statistic:                     3.951
+Date:                         Thu, 02 Mar 2023   Prob (F-statistic):            0.00575
+Time:                                 17:44:11   Log-Likelihood:                 156.39
+No. Observations:                           81   AIC:                            -302.8
+Df Residuals:                               76   BIC:                            -290.8
+Df Model:                                    4                                         
+Covariance Type:                     nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     0.0069      0.010      0.665      0.508      -0.014       0.027
+td_skulls                  1.004e-14   7.66e-15      1.311      0.194   -5.21e-15    2.53e-14
+td_down_arrows                0.0028      0.001      3.471      0.001       0.001       0.004
+td_down_stocks               -0.0761      0.049     -1.557      0.124      -0.173       0.021
+tomorrow_abnormal_returns     0.1812      0.117      1.545      0.126      -0.052       0.415
+tomorrow_volume           -4.469e-05   2.77e-05     -1.613      0.111   -9.99e-05    1.05e-05
+==============================================================================
+Omnibus:                       49.020   Durbin-Watson:                   1.929
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              248.291
+Skew:                           1.747   Prob(JB):                     1.21e-54
+Kurtosis:                      10.834   Cond. No.                     9.92e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.32e-29. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

@@ -1,0 +1,31 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:     tomorrow_abnormal_returns_2   R-squared:                       0.121
+Model:                                     OLS   Adj. R-squared:                  0.063
+Method:                          Least Squares   F-statistic:                     2.071
+Date:                         Thu, 02 Mar 2023   Prob (F-statistic):             0.0784
+Time:                                 17:44:02   Log-Likelihood:                 237.44
+No. Observations:                           81   AIC:                            -462.9
+Df Residuals:                               75   BIC:                            -448.5
+Df Model:                                    5                                         
+Covariance Type:                     nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     0.0008      0.008      0.110      0.913      -0.014       0.016
+td_skulls                    -0.1304      0.156     -0.838      0.405      -0.440       0.180
+td_down_arrows                0.0015      0.001      2.226      0.029       0.000       0.003
+td_down_stocks                0.0180      0.026      0.688      0.493      -0.034       0.070
+tomorrow_abnormal_returns    -0.1692      0.112     -1.513      0.135      -0.392       0.054
+tomorrow_volume           -2.426e-06   2.68e-06     -0.905      0.368   -7.76e-06    2.91e-06
+==============================================================================
+Omnibus:                        1.387   Durbin-Watson:                   2.030
+Prob(Omnibus):                  0.500   Jarque-Bera (JB):                1.367
+Skew:                           0.216   Prob(JB):                        0.505
+Kurtosis:                       2.532   Cond. No.                     3.13e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.13e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

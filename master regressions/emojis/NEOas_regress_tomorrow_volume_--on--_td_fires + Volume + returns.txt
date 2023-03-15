@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        tomorrow_volume   R-squared:                       0.749
+Model:                            OLS   Adj. R-squared:                  0.739
+Method:                 Least Squares   F-statistic:                     77.49
+Date:                Thu, 02 Mar 2023   Prob (F-statistic):           2.48e-23
+Time:                        16:58:38   Log-Likelihood:                -479.73
+No. Observations:                  82   AIC:                             967.5
+Df Residuals:                      78   BIC:                             977.1
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     56.6481     29.940      1.892      0.062      -2.958     116.254
+td_fires     -20.0798     12.860     -1.561      0.122     -45.682       5.522
+Volume         0.8802      0.093      9.478      0.000       0.695       1.065
+returns      624.8570    183.889      3.398      0.001     258.761     990.953
+==============================================================================
+Omnibus:                       71.547   Durbin-Watson:                   1.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              574.478
+Skew:                           2.604   Prob(JB):                    1.79e-125
+Kurtosis:                      14.875   Cond. No.                     7.71e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.71e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

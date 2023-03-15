@@ -1,0 +1,31 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     tomorrow_abnormal_returns   R-squared:                       0.045
+Model:                                   OLS   Adj. R-squared:                 -0.008
+Method:                        Least Squares   F-statistic:                    0.8458
+Date:                       Thu, 02 Mar 2023   Prob (F-statistic):              0.501
+Time:                               17:42:25   Log-Likelihood:                 201.44
+No. Observations:                         77   AIC:                            -392.9
+Df Residuals:                             72   BIC:                            -381.2
+Df Model:                                  4                                         
+Covariance Type:                   nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.0051      0.008      0.673      0.503      -0.010       0.020
+td_skulls            0.0001      0.003      0.048      0.962      -0.005       0.006
+td_down_arrows    2.723e-16   2.43e-16      1.120      0.267   -2.13e-16    7.57e-16
+td_down_stocks      -0.0758      0.094     -0.809      0.421      -0.263       0.111
+abnormal_returns     0.1917      0.120      1.594      0.115      -0.048       0.431
+Volume           -4.066e-07   3.73e-07     -1.090      0.279   -1.15e-06    3.37e-07
+==============================================================================
+Omnibus:                       13.953   Durbin-Watson:                   1.973
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               27.096
+Skew:                           0.589   Prob(JB):                     1.31e-06
+Kurtosis:                       5.657   Cond. No.                     4.47e+21
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.54e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

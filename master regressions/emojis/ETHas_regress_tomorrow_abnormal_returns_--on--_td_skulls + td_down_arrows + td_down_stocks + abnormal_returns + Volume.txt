@@ -1,0 +1,31 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     tomorrow_abnormal_returns   R-squared:                       0.135
+Model:                                   OLS   Adj. R-squared:                  0.078
+Method:                        Least Squares   F-statistic:                     2.365
+Date:                       Thu, 02 Mar 2023   Prob (F-statistic):             0.0475
+Time:                               17:42:23   Log-Likelihood:                 237.25
+No. Observations:                         82   AIC:                            -462.5
+Df Residuals:                             76   BIC:                            -448.1
+Df Model:                                  5                                         
+Covariance Type:                   nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.0306      0.010      3.006      0.004       0.010       0.051
+td_skulls            0.0645      0.072      0.900      0.371      -0.078       0.207
+td_down_arrows      -0.0006      0.001     -0.526      0.600      -0.003       0.002
+td_down_stocks      -0.0017      0.001     -1.786      0.078      -0.004       0.000
+abnormal_returns    -0.1877      0.109     -1.723      0.089      -0.405       0.029
+Volume           -3.256e-06    1.1e-06     -2.964      0.004   -5.44e-06   -1.07e-06
+==============================================================================
+Omnibus:                       15.822   Durbin-Watson:                   2.024
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.245
+Skew:                           0.742   Prob(JB):                     2.00e-06
+Kurtosis:                       5.340   Cond. No.                     5.83e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.83e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

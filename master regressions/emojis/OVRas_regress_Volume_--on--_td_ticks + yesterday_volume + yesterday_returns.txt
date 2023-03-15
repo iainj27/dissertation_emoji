@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Volume   R-squared:                       0.581
+Model:                            OLS   Adj. R-squared:                  0.565
+Method:                 Least Squares   F-statistic:                     36.01
+Date:                Thu, 02 Mar 2023   Prob (F-statistic):           1.03e-14
+Time:                        16:55:03   Log-Likelihood:                -879.17
+No. Observations:                  82   AIC:                             1766.
+Df Residuals:                      78   BIC:                             1776.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+Intercept          1.777e+04   5200.076      3.417      0.001    7413.561    2.81e+04
+td_ticks           -374.0886    390.473     -0.958      0.341   -1151.461     403.284
+yesterday_volume      0.7434      0.074     10.042      0.000       0.596       0.891
+yesterday_returns  8.942e+04   4.12e+04      2.168      0.033    7319.836    1.72e+05
+==============================================================================
+Omnibus:                       33.297   Durbin-Watson:                   2.042
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               66.887
+Skew:                           1.506   Prob(JB):                     2.99e-15
+Kurtosis:                       6.241   Cond. No.                     2.08e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.08e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

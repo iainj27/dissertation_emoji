@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             volatility   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.138
+Method:                 Least Squares   F-statistic:                     7.459
+Date:                Wed, 08 Mar 2023   Prob (F-statistic):            0.00108
+Time:                        21:17:16   Log-Likelihood:                 171.72
+No. Observations:                  82   AIC:                            -337.4
+Df Residuals:                      79   BIC:                            -330.2
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.0327      0.007      4.667      0.000       0.019       0.047
+td_novak_score       -9.977e-06    1.5e-05     -0.666      0.507   -3.98e-05    1.98e-05
+yesterday_volatility     0.3898      0.104      3.738      0.000       0.182       0.597
+==============================================================================
+Omnibus:                       36.742   Durbin-Watson:                   2.016
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               73.522
+Skew:                           1.698   Prob(JB):                     1.08e-16
+Kurtosis:                       6.159   Cond. No.                     9.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

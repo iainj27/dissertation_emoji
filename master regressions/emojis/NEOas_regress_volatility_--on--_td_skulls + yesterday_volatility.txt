@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             volatility   R-squared:                       0.295
+Model:                            OLS   Adj. R-squared:                  0.286
+Method:                 Least Squares   F-statistic:                     33.45
+Date:                Thu, 02 Mar 2023   Prob (F-statistic):           1.36e-07
+Time:                        17:04:43   Log-Likelihood:                 147.91
+No. Observations:                  82   AIC:                            -291.8
+Df Residuals:                      80   BIC:                            -287.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.0294      0.007      3.984      0.000       0.015       0.044
+td_skulls                     0          0        nan        nan           0           0
+yesterday_volatility     0.5439      0.094      5.784      0.000       0.357       0.731
+==============================================================================
+Omnibus:                       55.805   Durbin-Watson:                   2.087
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              246.830
+Skew:                           2.138   Prob(JB):                     2.52e-54
+Kurtosis:                      10.346   Cond. No.                     3.44e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 6.97e-38. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

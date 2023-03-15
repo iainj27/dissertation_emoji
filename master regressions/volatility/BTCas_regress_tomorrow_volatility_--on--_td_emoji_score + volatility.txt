@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     tomorrow_volatility   R-squared:                       0.119
+Model:                             OLS   Adj. R-squared:                  0.095
+Method:                  Least Squares   F-statistic:                     5.009
+Date:                 Wed, 08 Mar 2023   Prob (F-statistic):            0.00912
+Time:                         21:19:02   Log-Likelihood:                 164.63
+No. Observations:                   77   AIC:                            -323.3
+Df Residuals:                       74   BIC:                            -316.2
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.0256      0.005      4.718      0.000       0.015       0.036
+td_emoji_score -1.623e-05   1.74e-05     -0.935      0.353   -5.08e-05    1.84e-05
+volatility         0.3277      0.113      2.891      0.005       0.102       0.554
+==============================================================================
+Omnibus:                       55.015   Durbin-Watson:                   1.973
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              209.392
+Skew:                           2.310   Prob(JB):                     3.40e-46
+Kurtosis:                       9.627   Cond. No.                     7.08e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.08e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
